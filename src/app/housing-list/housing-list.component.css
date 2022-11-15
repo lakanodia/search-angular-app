@@ -42,7 +42,7 @@ article > p:first-of-type {
 }
 
 img {
-  width: 490px;
+  width: 400px;
   border-radius: 5pt;
 }
 
@@ -56,9 +56,14 @@ label {
 }
 .article-view{
   border-style: groove;
-  max-width: 600px;
+  max-width: 400px;
   width: 100%;
   padding: 10px;
   border-radius: 5px;
   border-color: #cbd1ef;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.article-view:hover{
+  transform: scale(1.08);
 }

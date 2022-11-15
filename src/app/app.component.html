@@ -12,14 +12,16 @@
     </section>
 
     <article>
-      <img [src]="selectedLocation?.photo" />
-      <h1>{{ selectedLocation?.name }}</h1>
-      <h3>{{ selectedLocation?.availableUnits }}</h3>
-      <h3>{{ selectedLocation?.city }}, {{ selectedLocation?.state }}</h3>
-      <h4>
-        {{ selectedLocation?.laundry ? "Has laundry" : "Does Not have laundry" }}
-      </h4>
-      <h4>{{ selectedLocation?.wifi ? "Has wifi" : "Does Not have wifi" }}</h4>
+      <ng-container>
+        <img [src]="selectedLocation?.photo" />
+        <h1 class="title">{{ selectedLocation?.name }}</h1>
+        <h3>{{ selectedLocation?.availableUnits }}</h3>
+        <h3>{{ selectedLocation?.city }}, {{ selectedLocation?.state }}</h3>
+        <h4>
+          {{ selectedLocation?.laundry ? "Has laundry" : "Does Not have laundry" }}
+        </h4>
+        <h4>{{ selectedLocation?.wifi ? "Has wifi" : "Does Not have wifi" }}</h4>
+    </ng-container>
     </article>
 </div>
 </main>
