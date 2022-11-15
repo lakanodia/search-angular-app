@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'search-angular-app';
   selectedLocation: HousingLocation | undefined;
 
+  
   housingLocationList: HousingLocation[] = [
     {
       name: 'Acme Fresh Start Housing',
