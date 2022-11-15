@@ -54,3 +54,11 @@ label {
 .search-label {
   margin-bottom: 10px;
 }
+.article-view{
+  border-style: groove;
+  max-width: 600px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #cbd1ef;
+}

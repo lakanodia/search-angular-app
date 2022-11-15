@@ -9,12 +9,16 @@
   justify-content: flex-start;
   margin-bottom: 50px;
 }
-img{
-  max-width: 500px;
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+article {
+  max-width: 600px;
   width: 100%;
 }
-.article-detail{
-  border: solid;
-  border-color: rgba(0, 0, 0, 0.541);
-
+div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
